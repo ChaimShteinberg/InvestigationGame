@@ -10,15 +10,13 @@ namespace InvestigationGame.models
     {
         public string Name { get; }
 
-        public List<ISensor> Weaknesses { get; }
+        public ISensor?[] Weaknesses { get; } = new ISensor?[2];
 
-        public List<ISensor> Injuries { get; }
+        public ISensor?[] Injuries { get; set; } = new ISensor?[2];
 
-        public FootSolider(string name, List<ISensor> weaknesses, List<ISensor> injuries)
+        public FootSolider(string name)
         {
             this.Name = name;
-            this.Weaknesses = weaknesses;
-            this.Injuries = injuries;
         }
     }
 }
