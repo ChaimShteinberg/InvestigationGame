@@ -10,8 +10,8 @@ namespace InvestigationGame.models
     {
         string Name { get; }
 
-        List<ISensor> Weaknesses { get; }
+        ISensor?[] Weaknesses { get; }
 
-        List<ISensor> Injuries { get; }
+        ISensor?[] Injuries { get; set; }
     }
 }
