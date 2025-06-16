@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InvestigationGame.models
 {
-    internal class FootSolider:IIranianAgent
+    internal class FootSolider : IIranianAgent
     {
         public string Name { get; }
 
