@@ -9,14 +9,11 @@ namespace InvestigationGame.Logic
 {
     internal class GetRandomAgent
     {
-        public static IIranianAgent GetSensor()
+        public static IIranianAgent GetAgent()
         {
             IIranianAgent sensor;
-            List<ISensor> weaknesses = new List<ISensor>();
-            List<ISensor> injuries = new List<ISensor>();
 
-
-            FootSolider footSolider = new FootSolider("AudioSensor", weaknesses, injuries);
+            FootSolider footSolider = new FootSolider("AudioSensor");
 
             //Random random = new Random();
             //sensor = random.Next() == 0 ? footSolider;

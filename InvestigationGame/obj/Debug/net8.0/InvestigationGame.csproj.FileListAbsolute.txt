@@ -1,0 +1,15 @@
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\InvestigationGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\InvestigationGame.AssemblyInfoInputs.cache
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\InvestigationGame.AssemblyInfo.cs
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\InvestigationGame.csproj.CoreCompileInputs.cache
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\InvestigationGame.sourcelink.json
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\bin\Debug\net8.0\InvestigationGame.exe
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\bin\Debug\net8.0\InvestigationGame.deps.json
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\bin\Debug\net8.0\InvestigationGame.runtimeconfig.json
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\bin\Debug\net8.0\InvestigationGame.dll
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\bin\Debug\net8.0\InvestigationGame.pdb
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\InvestigationGame.dll
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\refint\InvestigationGame.dll
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\InvestigationGame.pdb
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\InvestigationGame.genruntimeconfig.cache
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\InvestigationGame\InvestigationGame\obj\Debug\net8.0\ref\InvestigationGame.dll
