@@ -14,5 +14,15 @@ namespace InvestigationGame.models
         {
             this.Name = name;
         }
+
+        public bool Activate(IIranianAgent agent, int location)
+        {
+            if (agent.Weaknesses[location] is ThermalSensor)
+            {
+                return true;
+
+            }
+            return false;
+        }
     }
 }

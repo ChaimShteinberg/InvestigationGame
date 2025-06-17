@@ -1,4 +1,5 @@
-﻿using InvestigationGame.Logic;
+﻿using InvestigationGame.Investigation;
+using InvestigationGame.Logic;
 
 namespace InvestigationGame
 {
@@ -6,7 +7,7 @@ namespace InvestigationGame
     {
         static void Main(string[] args)
         {
-
+            InvestigationManager.Investigation();
         }
     }
 }

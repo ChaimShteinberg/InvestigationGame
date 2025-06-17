@@ -7,16 +7,19 @@ using System.Threading.Tasks;
 
 namespace InvestigationGame.Logic
 {
-    internal class CrateAgent
+    internal class CreateAgent
     {
-        public static void CrateNewAgent()
+        public static IIranianAgent CreateNewAgent()
         {
             IIranianAgent agent = GetRandomAgent.GetAgent();
+
             int num = agent.Weaknesses.Length;
             for (; num > 0; num--)
             {
                 agent.Weaknesses[num - 1] = GetRandomSensor.GetSensor();
             }
+
+            return agent;
         }
     }
 }
