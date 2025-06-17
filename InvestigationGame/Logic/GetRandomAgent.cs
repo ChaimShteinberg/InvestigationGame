@@ -11,16 +11,16 @@ namespace InvestigationGame.Logic
     {
         public static IIranianAgent GetAgent()
         {
-            IIranianAgent sensor;
+            IIranianAgent agent;
 
             FootSolider footSolider = new FootSolider("AudioSensor");
 
             //Random random = new Random();
             //sensor = random.Next() == 0 ? footSolider;
 
-            sensor = footSolider; // זמני
+            agent = footSolider; // זמני
 
-            return sensor;
+            return agent;
         }
     }
 }

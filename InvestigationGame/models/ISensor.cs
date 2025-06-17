@@ -10,5 +10,7 @@ namespace InvestigationGame.models
     {
         public string Name { get; }
 
+        public bool Activate(IIranianAgent agent, int location);
+
     }
 }
