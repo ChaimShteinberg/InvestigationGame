@@ -1,18 +1,19 @@
-﻿using System;
+﻿using InvestigationGame.models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InvestigationGame.models
+namespace InvestigationGame.Models
 {
-    internal class AudioSensor:ISensor
+    internal class PulseSensor:ISensor
     {
         public string Name { get; set; }
 
         public int ActivationCount { get; set; }
 
-        public AudioSensor(string name)
+        public PulseSensor(string name)
         {
             this.Name = name;
             this.ActivationCount = 0;
@@ -22,10 +23,9 @@ namespace InvestigationGame.models
         {
             ActivationCount++;
 
-            if (weaknesses[location] is AudioSensor)
+            if (weaknesses[location] is ThermalSensor)
             {
                 return true;
-
             }
             return false;
         }

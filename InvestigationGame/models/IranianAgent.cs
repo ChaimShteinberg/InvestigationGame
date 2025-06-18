@@ -58,7 +58,7 @@ namespace InvestigationGame.models
             }
         }
 
-        private void GetWeaknesses()
+        protected void GetWeaknesses()
         {
             for (int i = 0; i < Weaknesses.Length; i++)
             {

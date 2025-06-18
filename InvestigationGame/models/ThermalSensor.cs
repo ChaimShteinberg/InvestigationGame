@@ -10,14 +10,19 @@ namespace InvestigationGame.models
     {
         public string Name { get; set; }
 
+        public int ActivationCount { get; set; }
+
         public ThermalSensor(string name)
         {
             this.Name = name;
+            this.ActivationCount = 0;
         }
 
-        public bool Activate(IIranianAgent agent, int location)
+        public bool Activate(ISensor?[] weaknesses, int location)
         {
-            if (agent.Weaknesses[location] is ThermalSensor)
+            ActivationCount++;
+
+            if (weaknesses[location] is ThermalSensor)
             {
                 return true;
 
