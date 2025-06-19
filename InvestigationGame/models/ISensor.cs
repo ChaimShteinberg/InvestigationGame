@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace InvestigationGame.models
 {
-    internal interface ISensor
+    public interface ISensor
     {
-        public string Name { get; }
+        string Name { get; }
 
-        public bool Activate(IIranianAgent agent, int location);
+        int ActivationCount { get; set; }
+
+        public bool Activate(ISensor?[] weaknesses, int location);
 
     }
 }
